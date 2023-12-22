@@ -1,0 +1,15 @@
+/* Apply styling to the entire body */
+body {
+  margin: 0; /* Remove default margin to ensure content starts from the top */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Use system fonts for better cross-platform consistency */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS */
+}
+
+/* Apply styling to code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Use monospaced font for code elements */
+}
